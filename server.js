@@ -19,7 +19,7 @@ mongoose
 
 app.use(
   cors({
-    origin: ["*" ,"https://pbfrontend-282f7.web.app", "http://localhost:4200"],
+    origin: ["*" ,"https://personalbudget-30baf.web.app", "http://localhost:4200"],
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true,
   })
